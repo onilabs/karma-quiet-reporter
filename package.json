@@ -1,0 +1,17 @@
+{
+  "name": "karma-quiet-reporter",
+  "version": "0.1.1",
+  "description": "A Karma plugin. Report results with minimal noise.",
+  "main": "index.js",
+  "keywords": [
+    "karma-plugin",
+    "karma-reporter",
+    "quiet"
+  ],
+  "author": "Tim Cuthbertson <tim@onilabs.com>",
+  "peerDependencies": {
+    "karma": ">=0.9"
+  },
+  "license": "MIT"
+}
+
