@@ -8,4 +8,4 @@ status line for each browser, like:
 This is cool, but if you're not running in a real terminal (e.g
 travis-ci), you'll get status lines smattered across your logs.
 
-This reporter just prints one status line, at the end of each browser run.
+This reporter only prints output from the browser, and adds none of its own.

@@ -8,23 +8,9 @@ var QuietReporter = function(formatError) {
 
   this.onBrowserLog = function(browser, log, type) {
     this.writeCommonMsg(log);
-  }
-
-  this.onBrowserComplete = function() {
-    this.write(this._render());
   };
 
-  this.onRunStart = function() {
-    this._browsers = [];
-  };
-
-  this.onBrowserStart = function(browser) {
-    this._browsers.push(browser);
-  };
-
-  this._render = function() {
-    return this._browsers.map(this.renderBrowser).join('\n') + '\n';
-  };
+  this.onSpecComplete = this.onBrowserError = function() {};
 };
 
 module.exports = {
