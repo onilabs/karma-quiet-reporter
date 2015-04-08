@@ -1,7 +1,11 @@
 {
   "name": "karma-quiet-reporter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Karma plugin. Report results with minimal noise.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/onilabs/karma-quiet-reporter.git"
+  },
   "main": "index.js",
   "keywords": [
     "karma-plugin",
